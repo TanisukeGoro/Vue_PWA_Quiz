@@ -1,9 +1,7 @@
 <template>
-  <!-- <v-touch v-on: swiperright="onSwipeRight"> -->
-  <v-touch v-on:swipe="onSwipeRight">
   <div class="hello">
-    <v-touch v-on:doubletap="onDoubletap"><h1>{{ msg }}</h1></v-touch>
-    <h2>Essential Links{{ count }}</h2>
+    <h1>{{ msg }}</h1>
+    <h2>Essential Links</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
@@ -19,7 +17,6 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
-  </v-touch>
 </template>
 
 <script>
@@ -27,19 +24,9 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js PWA',
-      count : 0
+      msg: 'Greet!!!!'
     }
-  },
-  methods: {
-    onSwipeRight : function(){
-      console.log('テスト');
-    },
-    onDoubletap : ()=>{
-      console.log('Tap! Tap!');
-    }
-  },
-
+  }
 }
 </script>
 

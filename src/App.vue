@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div class="blank"></div>
     <header>
       <span>Vue.js PWA</span>
     </header>
@@ -19,6 +20,12 @@ export default {
 <style>
 body {
   margin: 0;
+  background-color: #C8DDE6;
+
+}
+.blank{
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
 #app {
@@ -37,8 +44,13 @@ header {
   margin: 0;
   height: 56px;
   padding: 0 16px 0 24px;
-  background-color: #35495E;
+  background-color: #73B8D6;
   color: #ffffff;
+  left: 0;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:24;
 }
 
 header span {
