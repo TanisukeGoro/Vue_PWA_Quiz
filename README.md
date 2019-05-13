@@ -2,6 +2,10 @@
 
 > クイズ課題をPWAで実装して見た
 
+## DEVELOP ENVIRONMENT
+MacBook pro : High Sierra  
+npm : 6.4.1
+Vue : 2.9.6 (stable)
 
 ## GETTING STATED
 

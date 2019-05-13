@@ -2,10 +2,10 @@
   <div id="app">
     <div class="blank"></div>
     <header>
-      <span>Vue.js PWA</span>
+      <span>Quiz PWA</span>
     </header>
     <main>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
+
       <router-view></router-view>
     </main>
   </div>
@@ -13,8 +13,11 @@
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
 }
+
+
+
 </script>
 
 <style>
