@@ -28,7 +28,7 @@ body {
 }
 .blank{
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 #app {
